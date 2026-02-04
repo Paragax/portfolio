@@ -1,0 +1,21 @@
+:root {
+  --bg: #0f0f0f;
+  --text: #ededed;
+  --accent: #7cff00;
+}
+
+html {
+  font-family:
+    "Roboto",
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+}
+main {
+}

@@ -1,3 +1,3 @@
-Portfolio
+Portfolio website using just html/css/js
 
-Will keep a log of AI usage somewhere in the repo.
+pdf at root dir is a log of my ai usage in this portfolio.

@@ -1,0 +1,31 @@
+/* Tooltip Hover Effect on Socials */
+.socials a::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--accent);
+  color: var(--bg);
+  font-size: 0.75rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.socials a:hover::after,
+.socials a:focus-visible::after {
+  opacity: 1;
+}
+
+.socials-top .socials a::after {
+  bottom: -2.2rem;
+  transform: translateX(-50%) translateY(4px);
+}
+
+.socials-bottom .socials a::after {
+  top: -2.2rem;
+  transform: translateX(-50%) translateY(-4px);
+}
