@@ -44,6 +44,7 @@
   height: 0;
   opacity: 0;
   pointer-events: none;
+  transition: opacity 0.25s ease;
 }
 
 .tooltip a:hover::before,
@@ -63,13 +64,4 @@
   border-left: 0.4rem solid transparent;
   border-right: 0.4rem solid transparent;
   border-top: 0.4rem solid var(--accent);
-}
-
-/* Remove outline from tooltip when focused */
-.tooltip a:focus-visible {
-  outline: none;
-}
-
-.tooltip a:focus-visible .icon-wrap {
-  outline: auto;
 }
