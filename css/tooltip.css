@@ -1,5 +1,9 @@
-/* Tooltip Hover Effect on Socials */
-.socials a::after {
+/* Tooltip Hover Effect */
+.tooltip a {
+  position: relative;
+}
+
+.tooltip a::after {
   content: attr(data-tooltip);
   position: absolute;
   left: 50%;
@@ -15,17 +19,32 @@
   transition: opacity 0.25s ease;
 }
 
-.socials a:hover::after,
-.socials a:focus-visible::after {
+.tooltip a:hover::after,
+.tooltip a:focus-visible::after {
   opacity: 1;
 }
 
-.socials-top .socials a::after {
+.tooltip a:hover::after {
+  opacity: 1;
+}
+
+.tooltip-top .tooltip a::after {
   bottom: -2.2rem;
   transform: translateX(-50%) translateY(4px);
 }
 
-.socials-bottom .socials a::after {
+.tooltip-bottom .tooltip a::after {
   top: -2.2rem;
   transform: translateX(-50%) translateY(-4px);
+}
+
+.triangle {
+  --size: 0.5rem;
+  width: 0;
+  height: 0;
+
+  border-top: var(--size) solid blue;
+  border-bottom: var(--size) solid transparent;
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
 }
