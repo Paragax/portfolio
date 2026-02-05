@@ -41,3 +41,59 @@
     transparent
   );
 }
+
+.location {
+  /* margin-top: 0.5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.location-icon {
+  width: 0.9rem;
+  height: 0.9rem;
+  fill: currentColor;
+  opacity: 0.8;
+}
+
+.selfie {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.text-muted {
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+.role {
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: clamp(0.9rem, 2vw, 1.15rem);
+  letter-spacing: 0.05em;
+}
+
+/* .summary {
+  margin-top: 0.5rem;
+  max-width: 42rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+} */
+
+.summary {
+  margin: 0.75rem auto 0;
+  max-width: 42rem;
+  text-align: center;
+  line-height: 1.5;
+  color: var(--text-muted);
+  opacity: 0.75;
+  font-size: 0.95rem;
+}
+
+/* TODO: Worried about the different amounts of 'fonts' (opacity and size) */

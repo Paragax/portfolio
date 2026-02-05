@@ -1,6 +1,7 @@
 :root {
   --bg: #0f0f0f;
   --text: #ededed;
+  --text-muted: #9a9a9a;
   --accent: #9be85c;
 }
 
@@ -25,4 +26,5 @@ body {
 }
 
 main {
+  /* justify-items: center; */
 }

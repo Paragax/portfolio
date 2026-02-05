@@ -7,14 +7,13 @@ Mention primary role
 
 Add headshot
 Add email + phone number
-Add location (Philly V.S. United States?)
 
-Add short biography (backend developer)
 Add timeline of work experience
 Add projects
 Add tech stack
 Attach Resume (download AND preview)
 
+Add mailto icon
 Add vertical lines??
 New favicon
 Better title metadata
