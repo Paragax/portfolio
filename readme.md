@@ -19,3 +19,4 @@ Better title metadata
 Accessibility review
 
 Website review
+Maybe remove JS rendering my html (template + replace code), maybe a pure css/html site would be cool

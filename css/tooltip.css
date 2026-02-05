@@ -24,27 +24,52 @@
   opacity: 1;
 }
 
-.tooltip a:hover::after {
-  opacity: 1;
-}
-
 .tooltip-top .tooltip a::after {
-  bottom: -2.2rem;
+  bottom: -2rem;
   transform: translateX(-50%) translateY(4px);
 }
 
 .tooltip-bottom .tooltip a::after {
-  top: -2.2rem;
+  top: -2rem;
   transform: translateX(-50%) translateY(-4px);
 }
 
-.triangle {
-  --size: 0.5rem;
+/* Triangle (arrow) */
+.tooltip a::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   width: 0;
   height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
 
-  border-top: var(--size) solid blue;
-  border-bottom: var(--size) solid transparent;
-  border-left: var(--size) solid transparent;
-  border-right: var(--size) solid transparent;
+.tooltip a:hover::before,
+.tooltip a:focus-visible::before {
+  opacity: 1;
+}
+
+.tooltip-top .tooltip a::before {
+  bottom: -0.7rem;
+  border-left: 0.4rem solid transparent;
+  border-right: 0.4rem solid transparent;
+  border-bottom: 0.4rem solid var(--accent);
+}
+
+.tooltip-bottom .tooltip a::before {
+  top: -0.7rem;
+  border-left: 0.4rem solid transparent;
+  border-right: 0.4rem solid transparent;
+  border-top: 0.4rem solid var(--accent);
+}
+
+/* Remove outline from tooltip when focused */
+.tooltip a:focus-visible {
+  outline: none;
+}
+
+.tooltip a:focus-visible .icon-wrap {
+  outline: auto;
 }
