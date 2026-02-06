@@ -1,13 +1,12 @@
 :root {
-  --bg: #0f0f0f;
-  --text: #ededed;
-  --text-muted: #9a9a9a;
-  --accent: #9be85c;
+  --bg: #f4f4f4;
+  --text: #1e1e1e;
+  --accent: #6b6b6b;
 }
 
 :focus-visible {
   outline: none;
-  box-shadow: 0 0 0 2px white;
+  box-shadow: 0 0 0 2px black;
   border-radius: 6px;
 }
 
