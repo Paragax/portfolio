@@ -26,4 +26,24 @@ body {
 
 main {
   /* justify-items: center; */
+  position: relative;
+}
+
+main::before,
+main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: var(--accent);
+  opacity: 0.2;
+}
+
+main::before {
+  left: 0;
+}
+
+main::after {
+  right: 0;
 }
