@@ -48,7 +48,7 @@
 }
 
 .work-link:hover {
-  opacity: 0.7;
+  opacity: var(--hover-opacity);
 }
 
 .work-meta {
@@ -63,4 +63,17 @@
 .work-meta > * {
   margin: 0;
   margin-top: 0.25rem;
+}
+
+.work-bullets {
+  padding-left: 1rem;
+}
+
+.work-bullets li {
+  margin-block: 0.4rem;
+  color: color-mix(in srgb, var(--text) 75%, transparent);
+}
+
+.work-bullets li::marker {
+  color: var(--accent);
 }

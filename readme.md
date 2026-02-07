@@ -4,7 +4,6 @@ pdf at root dir is a log of my ai usage in this portfolio.
 
 TODO:
 
-Add timeline of work experience
 Add projects
 Add tech stack
 Attach Resume (download AND preview)
