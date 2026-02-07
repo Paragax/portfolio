@@ -76,37 +76,3 @@
   color: color-mix(in srgb, var(--text) 88%, transparent);
   text-align: center;
 }
-
-.cta-row {
-  display: inline-flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 0.6rem 1.1rem;
-  border-radius: 999px;
-
-  font-weight: 600;
-  text-decoration: none;
-  border: 1px solid var(--border);
-
-  color: var(--text);
-  background: transparent;
-  transition: opacity 0.2s ease;
-}
-
-.btn--primary {
-  background: var(--accent);
-  color: #fff;
-  border-color: transparent;
-}
-
-.btn:hover {
-  opacity: var(--hover-opacity);
-  transform: scale(var(--hover-scale));
-}
