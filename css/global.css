@@ -1,7 +1,15 @@
 :root {
-  --bg: #f4f4f4;
-  --text: #1e1e1e;
-  --accent: #6b6b6b;
+  --bg: #fafafa;
+  /* --bg: black; */
+  --text: #18181b;
+  --accent: #0d9488; /* teal-600 */
+  --accent2: #f59e0b; /* amber-500 */
+
+  --muted: color-mix(in srgb, var(--text) 65%, transparent);
+  --surface: color-mix(in srgb, var(--text) 4%, var(--bg));
+  --focus: color-mix(in srgb, var(--accent) 70%, transparent);
+
+  --radius: 14px;
 }
 
 :focus-visible {
@@ -25,25 +33,12 @@ body {
 }
 
 main {
-  /* justify-items: center; */
   position: relative;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 2rem);
 }
 
-main::before,
-main::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background-color: var(--accent);
-  opacity: 0.2;
-}
-
-main::before {
-  left: 0;
-}
-
-main::after {
-  right: 0;
+a {
+  text-decoration: none;
 }
