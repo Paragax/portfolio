@@ -43,14 +43,6 @@
   margin: 0;
 }
 
-.work-link {
-  text-decoration: underline;
-}
-
-.work-link:hover {
-  opacity: var(--hover-opacity);
-}
-
 .work-meta {
   display: flex;
   justify-content: space-between;

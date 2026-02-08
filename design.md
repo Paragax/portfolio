@@ -33,6 +33,24 @@ Wrap these in section divs?
 
 ---
 
+Education??
+
+Tech Stack
+
+Backend: Node.js, Java, REST, GraphQL, SQL
+Infra / DevOps: AWS, Docker, CI/CD, Terraform
+Frontend (supporting): HTML, CSS, JS,
+
+Featured Project (even just one) -- Racewalking one
+
+---
+
+Contact / Call to Action
+Don’t bury in the footer
+
+Interested in working together?
+I’m open to backend-focused roles and collaborations.
+
 Privacy || Footer
 © 2026 Your Name
 Email + GitHub link

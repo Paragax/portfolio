@@ -42,5 +42,12 @@ main {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  font-weight: 500;
+  /* color: #9a0718; */
+  color: var(--accent);
+}
+
+a:hover {
+  opacity: var(--hover-opacity);
 }
