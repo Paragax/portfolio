@@ -26,20 +26,16 @@ Subtle CTA resume button
 
 Section links
 Jump to:
-[ Work ] [ Stack ] [ Education ] (hash these into the link)
+[ Work ] [ Stack ] [ Education ] [ Projects ] (hash these into the link)
 
 Jump to that section on click of a button
 Wrap these in section divs?
 
 ---
 
-Education??
+Education
 
 Tech Stack
-
-Backend: Node.js, Java, REST, GraphQL, SQL
-Infra / DevOps: AWS, Docker, CI/CD, Terraform
-Frontend (supporting): HTML, CSS, JS,
 
 Featured Project (even just one) -- Racewalking one
 

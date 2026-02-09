@@ -1,0 +1,28 @@
+.skills-container {
+  max-width: 720px;
+  margin-inline: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.5rem;
+
+  padding: 1rem;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+}
+
+.skill-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 0.4rem 0.75rem;
+
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+}
+
+.skill-card img {
+  width: 14px;
+  height: 14px;
+}
