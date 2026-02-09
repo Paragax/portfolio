@@ -22,7 +22,6 @@
 .line {
   height: 1px;
   width: 100%;
-  max-width: 300px;
   margin: 1rem auto;
   opacity: var(--hover-opacity);
 

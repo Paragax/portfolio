@@ -2,7 +2,8 @@
   --bg: #fafafa;
   /* --bg: black; */
   --text: #18181b;
-  --accent: #0d9488; /* teal-600 */
+  /* --accent: #0d9488; */
+  --accent: gray;
   --accent2: #f59e0b; /* amber-500 */
 
   --muted: color-mix(in srgb, var(--text) 65%, transparent);
@@ -35,10 +36,8 @@ body {
 }
 
 main {
-  position: relative;
-  max-width: 1200px;
+  max-width: 700px;
   margin-inline: auto;
-  padding-inline: clamp(1rem, 4vw, 2rem);
 }
 
 a {
