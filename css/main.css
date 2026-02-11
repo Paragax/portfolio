@@ -1,8 +1,10 @@
 @import url("./global.css");
 @import url("./layout.css");
 @import url("./components.css");
-@import url("./tooltip.css");
-@import url("./brand.css");
+
+@import url("./hero.css");
 @import url("./work-exp.css");
-@import url("./button.css");
 @import url("./skills.css");
+
+@import url("./button.css");
+@import url("./tooltip.css");
