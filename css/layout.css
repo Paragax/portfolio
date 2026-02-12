@@ -7,13 +7,8 @@
   padding: clamp(1rem, 1rem, 1rem) 0;
 }
 
-.section--center {
+.center {
   text-align: center;
-}
-
-.section--center > * {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .card-container {

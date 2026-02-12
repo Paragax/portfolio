@@ -2,28 +2,6 @@ Add a chatbot somewhere
 
 ---
 
-4 colors, 1 dark, 1 light, 2 accents
-2 main colors B & W and 2 accent colors , the action buttons , Borders , Gradient.
-one font per website just different weight and size
-Can use CSS variable and changing variable value will apply to all sitewide.
-Assign same classes to the repeating design.
-
----
-
-A. Hero section: 1 column
-
-[ Selfie / Portrait ]
-
-Backend Developer
-Based in <Location> • Open to US roles
-
-One precise sentence about what you’re building and where (Currently building X at Y, focused on Z.)
-Subtle CTA resume button
-
-[ My Resume ] [ GitHub ] [ LinkedIn ] [ Email ]
-
----
-
 Section links
 Jump to:
 [ Work ] [ Stack ] [ Education ] [ Projects ] (hash these into the link)
@@ -35,23 +13,15 @@ Wrap these in section divs?
 
 Education
 
-Tech Stack
-
 Featured Project (even just one) -- Racewalking one
 
 ---
 
-Contact / Call to Action
-Don’t bury in the footer
+Qs to ask in post:
 
-Interested in working together?
-I’m open to backend-focused roles and collaborations.
+AWS is a listed skill. But I technically don't know all of the niche AWS stuff that nobody uses. But I also don't want to spam a bunch of AWS services.
+Thoughts? -- Make it clickable with an arrow, it can expand all of the specific techs I use
+Should I be putting education down? Have two degrees: Bachelors in CS, Bachelor of Fine Arts.
+My current "call to action" is just a link to my resume with a redacted phone number. Is that fine?
 
-Privacy || Footer
-© 2026 Your Name
-Email + GitHub link
-Optional: “Built with X”
-
-BONUS ::
-1.DYNAMIC HEADING SIZE
---h1: bold 54px/64px var(--ff) 2. Flexible Cards 3. SVG ICONS 4. SNAP Scrolling :: Page will Snap to Next section. 5. Scale up or Down action buttons
+How can I show off this resume pipeline project, with users?
